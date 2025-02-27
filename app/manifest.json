@@ -1,0 +1,73 @@
+{
+  "name": "Hotkeys Thumb Action",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "service_worker.js",
+    "type": "module"
+  },
+  "commands": {
+    "new_tab": {
+      "suggested_key": { "default": "Alt+T" },
+      "description": "New tab"
+    },
+    "reload_page": {
+      "suggested_key": { "default": "Alt+R" },
+      "description": "Reload tab"
+    },
+    "close_tab": {
+      "suggested_key": { "default": "Alt+W" },
+      "description": "Close tab"
+    },
+    "new_window": {
+      "description": "Open new window (alt + N)"
+    },
+    "next_window": {
+      "description": "Switch to next window (alt + ,)"
+    },
+    "prev_window": {
+      "description": "Switch to prev window (alt + .)"
+    },
+    "find_on_page": {
+      "description": "Find on page - doesn't work lol"
+    },
+    "focus_on_url": {
+      "description": "Focus on URL - doesn't work lol"
+    },
+    "tab1": {
+      "description": "Switch to tab 1 (alt + 1)"
+    },
+    "tab2": {
+      "description": "Switch to tab 2 (alt + 2)"
+    },
+    "tab3": {
+      "description": "Switch to tab 3"
+    },
+    "tab4": {
+      "description": "Switch to tab 4"
+    },
+    "tab5": {
+      "description": "Switch to tab 5"
+    },
+    "tab6": {
+      "description": "Switch to tab 6"
+    },
+    "tab7": {
+      "description": "Switch to tab 7"
+    },
+    "tab8": {
+      "description": "Switch to tab 8"
+    },
+    "tab_last": {
+      "description": "Switch to the last tab (alt + 9)"
+    }
+  },
+
+  "permissions": ["tabs", "windows",   "debugger"
+],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

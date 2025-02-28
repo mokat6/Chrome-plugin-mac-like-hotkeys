@@ -1,5 +1,5 @@
 {
-  "name": "hotkeys-thumb-action",
+  "name": "chrome-plugin-mac-like-hotkeys",
   "version": "1.0.0",
   "description": "Chrome plugin - hotkeys like on Mac keyboard\r Use Alt+T to open a new tab (ctrl + T still works)",
   "main": "service_worker.js",

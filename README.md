@@ -35,8 +35,12 @@ Use Alt+T to open a new tab (ctrl + T still works)
 works on settings tabs, new tab, etc
 
 Limitation: doesn't work on popped out admin tools window.
-    
+
 # Default keys
 
 Max number of default key suggestions is 4
 For the remaining hotkeys set it yourself
+
+# Inspired by
+
+[Shortkeys (Custom Keyboard Shortcuts)](https://chromewebstore.google.com/detail/shortkeys-custom-keyboard/logpjaacgmcbpdkdchjiaagddngobkck)

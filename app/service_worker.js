@@ -105,3 +105,11 @@ function switchWindow(direction) {
     });
   });
 }
+
+// Click the icon in extension toolbar. Navigates to the page.
+
+chrome.action.onClicked.addListener((tab) => {
+  chrome.tabs.create({
+    url: 'edge://extensions/shortcuts'
+  });
+});

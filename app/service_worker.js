@@ -110,6 +110,6 @@ function switchWindow(direction) {
 
 chrome.action.onClicked.addListener((tab) => {
   chrome.tabs.create({
-    url: 'edge://extensions/shortcuts'
+    url: 'chrome://extensions/shortcuts'
   });
 });

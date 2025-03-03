@@ -29,6 +29,7 @@ Use Alt+T to open a new tab (ctrl + T still works)
 1. Install the extension.
 2. Open edge://extensions/shortcuts
 3. Set your hotkeys
+4. Ignore the first entry "Activate the extension." It's auto added when logo click action is enabled. What it does is the same as clicking the extention logo in the extension toolbar.
 
 # Why is it better than other extensions?
 

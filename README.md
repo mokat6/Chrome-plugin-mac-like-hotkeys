@@ -1,4 +1,8 @@
-# hotkeys-thumb-action
+# mac like hotkeys
+## Install
+Published on Chrome store
+https://chromewebstore.google.com/detail/mac-like-hotkeys/plpmddnfmapphmmmaelfclpjgdgaoedk
+
 
 Chrome plugin - hotkeys like on Mac keyboard
 Use Alt+T to open a new tab (ctrl + T still works)
